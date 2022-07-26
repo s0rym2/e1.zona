@@ -1,0 +1,175 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-color: rgb(39, 41, 68);
+}
+
+
+
+.searchBlock{
+    width: 100%;
+    height: 80px;
+}
+
+.searchBlock > h1 {
+    display: flex;
+    align-items: center;    
+
+}
+
+.searchBlock > h1:nth-of-type(1) {
+    border-bottom: 5px solid #fff;
+}
+
+.searchBlock > h1:hover {
+    border-bottom: 5px solid #fff;
+}
+
+.zonaBlock{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    align-items: center;
+   
+}
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5{
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+   
+   margin-left: 250px;
+}
+
+
+.block1>div{
+    width: 130px;
+    height: 186px;
+}
+
+.block2>div{
+    width: 130px;
+    height: 186px;
+}
+
+
+.block3>div{
+    width: 130px;
+    height: 186px;
+}
+
+.block4>div{
+    width: 130px;
+    height: 186px;
+}
+
+.block5>div{
+    width: 130px;
+    height: 186px;
+}
+
+.block1>div>img{
+    width: 127px;
+    height: 183px;
+    cursor: pointer;
+}
+
+.block2>div>img{
+    width: 127px;
+    height: 183px;
+    cursor: pointer;
+}
+
+.block3>div>img{
+    width: 127px;
+    height: 183px;
+    cursor: pointer;
+}
+
+.block4>div>img{
+    width: 127px;
+    height: 183px;
+    cursor: pointer;
+}
+
+.block5>div>img{
+    width: 127px;
+    height: 90px;
+    cursor: pointer;
+    background-color: rgb(70, 68, 68);
+}
+
+.searchBlock{
+    display:flex;
+    z-index: 40px;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(107, 128, 173);
+} 
+
+.searchBlock>h1{
+ margin-left: 100px;
+ cursor: pointer;
+}
+
+.zona{
+    color: white;
+}
+
+.p{
+    margin-right: 10px;
+    color: tomato; 
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 10px;
+}
+
+.p2{
+    margin-right: 50px;
+    color: rgb(202, 226, 226);
+}
+
+p{
+    color: white;
+}
+
+div::hover{
+     border: 2px solid rgb(255, 255, 255);
+}
+
+h3{
+   
+    
+    text-align: center;
+    margin:50px auto;
+    font-size: 25px;
+   color: white;
+   text-decoration: underline;
+    
+}
+
+h3:hover{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.block5>ul>p{
+    text-align: center;
+}
